@@ -1,40 +1,267 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>NikiLa POL | Home page</title>
+    <title>Nyaku Bitung | Beranda</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="NikiLa, Marketplace, Lamongan, Driver ">
-    <meta name="title" content="NikiLa POL">
-    <meta name="description" content="NikiLa POL, Marketplace yang digabungkan dengan Delivery Order">
+    <meta name="keywords" content="Nyaku, Marketplace, Bitung, Driver ">
+    <meta name="title" content="Nyaku Bitung">
+    <meta name="description" content="Nyaku Bitung || Marketplace yang digabungkan dengan Delivery Order">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:title" content="NikiLa POL" />
-    <meta property="og:description" content="www.NikiLa-POL.com" />
-    <meta property="og:url" content="https://ezazee.github.io/NikiLa-POL/" />
-    <meta property="og:image" content="assets/img/banner/Banner Tentang NikiLaPOL.jpg"/>
+    <meta property="og:title" content="Nyaku Bitung" />
+    <meta property="og:description" content="www.nyakubitung.com" />
+    <meta property="og:url" content="https://ezazee.github.io/nyakubitung/" />
+    <meta property="og:image" content="../assets/img/banner/banner08.jpg"/>
 
 
     <!-- Open Graph / Facebook -->
-<meta property="og:type" content="../assets/img/banner/Banner Tentang NikiLaPOL.jpg">
-<meta property="og:url" content="www.NikiLa-POL.com">
-<meta property="og:title" content="NikiLa POL">
+<meta property="og:type" content="assets/img/banner/banner08.jpg">
+<meta property="og:url" content="www.nyakubitung.com">
+<meta property="og:title" content="Nyaku Bitung || Marketplace yang digabungkan dengan Delivery Order">
 <meta property="og:description" content="Marketplace yang digabungkan dengan Delivery Order">
-<meta property="og:image" content="../assets/img/banner/Banner Tentang NikiLaPOL.jpg">
+<meta property="og:image" content="../assets/img/banner/banner08.jpg">
 
 <!-- Twitter -->
-<meta property="twitter:card" content="../assets/img/banner/Banner Tentang NikiLaPOL.jpg">
-<meta property="twitter:url" content="www.NikiLa-POL.com">
-<meta property="twitter:title" content="NikiLa POL">
+<meta property="twitter:card" content="assets/img/banner/banner08.jpg">
+<meta property="twitter:url" content="www.nyakubitung.com">
+<meta property="twitter:title" content="Nyaku Bitung || Marketplace yang digabungkan dengan Delivery Order">
 <meta property="twitter:description" content="Marketplace yang digabungkan dengan Delivery Order">
-<meta property="twitter:image" content="assets/img/banner/Banner Tentang NikiLaPOL.jpg">
+<meta property="twitter:image" content="../assets/img/banner/banner08.jpg">
 
     <link rel="icon" href="../assets/img/logo/nikila.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900%7CMerriweather:300,400,700,700i,900">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/home.css">
+
+    <!-- Unknown Style -->
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+
+    <style>
+      /* Root Variable Color */
+      :root{
+    --warna-dasar: #B70909;
+    --warna-kedua: #660707;
+    --warna-ketiga: #500202;
+    --warna-putih1: #fff;
+    --warna-putih2: #fafafa;
+    --font-dasar: 'Poppins', sans-serif;
+    --size-font-subtitle: 50px;
+  }
+
+  /* Button Arrow To Top Webstie */
+  .ui-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 36px;
+	border-radius: 50%;
+	color: #ffffff;
+	background: var(--warna-dasar);
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	transform: translate3d(0, 100px, 0);
+}
+
+.ui-to-top:hover {
+	color: #ffffff;
+	background: var(--warna-kedua);
+	text-decoration: none;
+}
+/* End Button ARROW  */
+
+  /* Pre Loader */
+  .cssload-speeding-wheel {
+	width: 64px;
+	height: 64px;
+	margin: 0 auto;
+	border: 3px solid var(--warna-dasar);
+	border-radius: 50%;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	animation: cssload-spin .88s infinite linear;
+  }
+/* End Pre Loader */
+
+  
+      /* Button Belanja Sekarang & Button Selengkapnya di Kategori Layanan */
+      .button-secondary, .button-secondary:focus {
+	    color: #ffffff;
+	    background-color: var(--warna-dasar);
+	    border-color: var(--warna-dasar);
+      }
+
+      .button-secondary:hover, .button-secondary:active, .button-secondary.active {
+	    color: #ffffff;
+	    background-color: var(--warna-kedua);
+    	border-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka:hover, .button-secondary.button-nuka:active, .button-secondary.button-nuka.active {
+	background-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka .button-overlay {
+        background-color: var(--warna-kedua);
+      }
+      /* End Button Belanja Sekarang & Button Selengkapnya di Kategori Layanan */
+
+
+      /* Hover Text Navbar */
+      .rd-navbar-static.context-dark .rd-nav-link:hover, .rd-navbar-static.bg-gray-700 .rd-nav-link:hover, .rd-navbar-static.bg-gray-800 .rd-nav-link:hover, .rd-navbar-static.bg-primary-app .rd-nav-link:hover, .rd-navbar-static.bg-primary .rd-nav-link:hover, .rd-navbar-static.bg-primary-1 .rd-nav-link:hover, .rd-navbar-static.bg-primary-2 .rd-nav-link:hover, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-link:hover, .rd-navbar-static.rd-navbar-corporate .rd-nav-link:hover {
+	    color: var(--warna-dasar);
+      }
+      /* End Hover Text Navbar */
+
+      /* Heading Sub Judul H6 */
+      h6,
+    .heading-6 {
+	    font-family: var(--font-dasar);
+	    font-size: 18px;
+	    line-height: 1.6;
+	    color: var(--warna-dasar);
+    }
+     /* End Heading Sub Judul H6 */
+
+     /* Card Yang Ditawarkan */
+    .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, var(--warna-dasar) 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    transition: 0.5s;
+    }
+
+    .card:hover {
+        background-position: 0 100%;
+    }
+
+    .card:hover svg {
+        background-color: #ffffff;
+        color: var(--warna-dasar);
+    }
+
+    .card:hover h3 {
+        color: #ffffff;
+    }
+
+    .card:hover p {
+        color: #f0f0f0;
+    }
+
+    .icon-wrapper {
+    background-color: var(--warna-dasar);
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+    /* End Card Yang Ditawarkan */
+
+    /* Card Driver & Merchant */
+.card2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: var(--warna-dasar);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+/* End Card Driver & Merchant */
+
+/* Warna Role Berita  */
+.main-post__tag {
+    font-size: 0.95em;
+    background: var(--warna-dasar);
+    padding: 6px 18px;
+}
+/* End Warna Role Berita */
+
+/* Progress Barr Berita */
+.progress-bar__fill {
+    width: 0;
+    height: inherit;
+    background: var(--warna-kedua);
+    transition: all 0.16s;
+}
+/* End Progress Barr Berita */
+
+
+/* CTA banner Download */
+#cta {
+    padding: 30px 0;
+    background: var(--warna-ketiga) url(../assets/img/banner/cta.png) center no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 576px) {
+    #cta {
+        padding: 50px 0;
+        background: var(--warna-kedua) url(../assets/img/home-img.png) -110% no-repeat;
+        background-size: 20%;
+        position: relative;
+    }
+
+    #cta .box-cta {
+        width: auto;
+        margin-left: auto;
+    }
+
+    #cta .cta-text {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #FFF;
+        margin-bottom: 30px;
+    }
+
+    #cta a.btn-cta {
+        background: #FFF;
+        border-radius: 40px;
+        color: #222;
+        margin-left: 100px;
+        font-weight: 600;
+        padding: 8px 20px;
+    }
+  }
+/* END CTA Banner Download */
+
+/* Footer */
+footer {
+    background: var(--warna-kedua);
+    padding: 50px 0 0 0;
+    color: #E9E9E9;
+}
+    
+    </style>
   </head>
+
+
   <body>
     <div class="preloader">
       <div class="preloader-body">
@@ -45,7 +272,7 @@
     </div>
     <div class="page">
 
-        <!-- Header -->
+      <!-- Header -->
       <header class="section page-header">
         <!--RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -59,23 +286,23 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="../html-en/index.html"><img class="brand-logo-dark" src="../assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="" width="181" height="45"/><img class="brand-logo-light" src="../assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="" width="181" height="45"/></a>
+                    <!--Brand--><a class="brand" href="../index.html"><img class="brand-logo-dark" src="../assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="" width="181" height="45"/><img class="brand-logo-light" src="../assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="" width="181" height="45"/></a>
                   </div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="../html-en/tentang.html">About NikiLa POL</a>
-                      </li>
+                      <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="html/tentang/tentang.html">Tentang</a>
+                      </li> -->
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#">Partner</a>
                         <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="../html-en/mitra-merchant.html">Partner Merchant</a>
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="mitra-merchant.html">Partner Merchant</a>
                           </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="../html-en/mitra-driver.html">Partner Driver</a>
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="mitra-driver.html">Partner Driver</a>
                           </li>
                         </ul>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="../html-en/layanan.html">Service</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="layanan.html">Service</a>
                         <!-- <ul class="rd-menu rd-navbar-dropdown">
                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Makanan & Belanja</a>
                             <ul class="rd-menu rd-navbar-dropdown">
@@ -120,12 +347,12 @@
                           </li>
                         </ul> -->
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="../html-en/kontak.html">Contact</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="kontak.html">Contact</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="../html-en/bantuan.html">Help</a>
+                      <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="html/bantuan/bantuan.html">Bantuan</a>
                       </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="../html-en/blog.html">Blog</a>
-                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="html/blog/konten_blog.html">Blog</a>
+                      </li> -->
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#">
                         <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
                           <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
@@ -134,7 +361,7 @@
                         <ul class="rd-menu rd-navbar-dropdown">
                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="../index.html"><img src="https://img.icons8.com/color/27/000000/indonesia-circular.png"/> IDN</a>
                           </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="../html-en/index.html"><img src="https://img.icons8.com/color/27/000000/usa-circular.png"/> ENG</a>
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="./index.html"><img src="https://img.icons8.com/color/27/000000/usa-circular.png"/> ENG</a>
                           </li>
                         </ul>
                       </li>
@@ -151,6 +378,7 @@
           </nav>
         </div>
       </header>
+      <!-- End Header -->
 
       <!-- Hero Section-->
      <section id="home" class="atf-particle-one atf-cover-bg atf-hero-area atf-align-items-details" style="background-image: url(../assets/img/banner/bg-home\ Left.jpg); background-size:cover; background-position: center center;">
@@ -158,8 +386,8 @@
 				<div class="container atf-particles-area">
 					<div class="row atf-content-details align-items-center">
         <div class="col-lg-7 col-md-6 col-12 atf-single-details text-lg-left">
-							<h2 class="mb-0 d-block d-lg-block">There is NikiLa POL in every corner of Lamongan</h2>
-							<p class="mr-lg-5">#We Defend We Buy Local Products</p>
+							<h2 class="mb-0 d-block d-lg-block">There is a Nyaku in every corner of Bitung</h2>
+							<p class="mr-lg-5"> #We Defend We Buy Local Products</p>
         <div class="atf-one__btn-wrap">
 							<a href="#"> <img src="../assets/img/googleplay.png" width="150px" alt=""></a>
 							</div>
@@ -186,32 +414,32 @@
                       <path d="M18.0698 8.92762C19.3101 9.63455 19.3101 11.3655 18.0698 12.0724L2.85678 20.7432C1.59455 21.4626 -6.40869e-08 20.585 0 19.1708L7.85887e-07 1.82916C8.49974e-07 0.414998 1.59455 -0.462644 2.85678 0.256784L18.0698 8.92762Z"></path>
                     </svg>
                   </a> -->
-                  <img class="box-shadow" src="../assets/img/banner/2.png" alt="" width="660" height="406"/>
+                  <img class="box-shadow" src="../assets/img/banner/Banner Mitra Driver.jpg" alt="" width="660" height="406"/>
                 </div>
               </div>
               <div class="col-xl-5 col-lg-6">
                 <h6>About</h6>
-                <h2 style="font-family: 'Roboto' ; font-size: 50px;
-                ">
-What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
-                <p class="big">NikiLa Online Market Lamongan or abbreviated <strong><a class="link-border" href="#">Nikila POL</a></strong> is a Super Apps that combines <em>Marketplace</em> dan <em>Delivery Order</em>, which has the aim of being a place for selling local wisdom products of Lamongan Regency and to increase the Regency's PAD (Regional Original Income).</p>
+                <h2 style="font-family: var(--font-dasar);" ; font-size: 50px;
+                ">What Is <span style="color: var(--warna-dasar);"> Nyaku Bitung</span></h2>
+                <p class="big">Nyaku Bitung is a Super Apps that combines <em>Marketplace</em> And <em>Delivery Order</em>, which has the aim of being a place to sell local wisdom products in Bitung Regency and to increase sales of UMKM actors in Bitung Regency.</p>
               </div>
             </div>
           </div>
         </section>
         <!-- Akhir Tentang -->
 
-              <!-- Banner -->
+        <!-- Banner -->
          <div class="content">
     <div class="container wow fadeInUp">
-      <h2 class="my-5 text-center" style="font-family: 'Poppins';"> <span style="color: #1293E4;">Facilities</span> We Serve
-</h2>
+      <h2 class="my-5 text-center" style="font-family: var(--font-dasar);"> <span style="color: var(--warna-dasar);">Facilities </span> We Serve</h2>
       <div class="owl-carousel owl-1">
-        <div><img src="../assets/img/banner/Banner Ads 5.png" alt="Image" class="img-fluid"></div>
-        <div><img src="../assets/img/banner/Banner Ads 8.png" alt="Image" class="img-fluid"></div>
-        <div><img src="../assets/img/banner/Banner Ads 7.png" alt="Image" class="img-fluid"></div>
-        <div><img src="../assets/img/banner/Banner Ads 5.png" alt="Image" class="img-fluid"></div>
-        <div><img src="../assets/img/banner/Banner Ads 8.png" alt="Image" class="img-fluid"></div>
+        <div><img src="../assets/img/banner/Banner01.jpg" alt="Image" class="img-fluid"></div>
+        <div><img src="../assets/img/banner/Banner02.jpg" alt="Image" class="img-fluid"></div>
+        <div><img src="../assets/img/banner/Banner03.jpg" alt="Image" class="img-fluid"></div>
+        <div><img src="../assets/img/banner/Banner04.jpg" alt="Image" class="img-fluid"></div>
+        <div><img src="../assets/img/banner/Banner05.jpg" alt="Image" class="img-fluid"></div>
+        <div><img src="../assets/img/banner/Banner06.jpg" alt="Image" class="img-fluid"></div>
+        <div><img src="../assets/img/banner/Banner07.jpg" alt="Image" class="img-fluid"></div>
       </div>
     </div>
   </div>
@@ -220,11 +448,11 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
         <!-- Kenapa Harus Kami-->
         <section class="section section-md bg-default">
           <div class="container">
-            <div class="row row-15 justify-content-sm-between wow fadeInUp">
+            <div class="row row-15 justify-content-sm-between   wow fadeInUp">
               <div class="col-xl-5 col-lg-6">
-                <h6>Why should NikiLa POL ?</h6>
-                <h2 style="font-family: 'Poppins'; font-size: 40px;">Regional Product Portfolio</h2>
-                <p class="big">NikiLa POL is an E-Catalog of local wisdom products of Lamongan Regency which is a portfolio of regional products for the MSME, commodity, and tourism sectors, making it easier for tourists to recognize the products of Lamongan Regency local wisdom.</p>
+                <h6>Why Should Nyaku Bitung?</h6>
+                <h2 style="font-family: var(--font-dasar); font-size: 40px;">Regional Product Portfolio</h2>
+                <p class="big">Nyaku Bitung is an E-Catalog of local wisdom products of Bitung Regency which is a portfolio of regional products for the UMKM, commodity, and tourism sectors, making it easier for tourists to recognize Bitung Regency local wisdom products.</p>
               </div>
               <div class="col-xl-6 col-lg-6">
                 <div class="text-center text-lg-left"><img src="../assets/img/Ilustrasi/home-img.png" alt="" width="500" height="406"/>
@@ -234,13 +462,13 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
           </div>
         </section>
         <!-- Akhir kenapa harus kami -->
-        
+
         <!-- Jasa yang ditawarkan-->
         <section class="section section-md bg-default" id="what-we-do">
           <div class="container">
             <div class="text-center wow fadeInUp">
               <h6>What do we offer?</h6>
-              <h2 style="font-family: 'Poppins';">Services that can accompany your day</h2>
+              <h2 style="font-family: var(--font-dasar);">Services that can accompany your day</h2>
             </div>
            <div class="row wow fadeInUp">
         <div class="column">
@@ -248,9 +476,9 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
             <div class="icon-wrapper">
               <img src="../assets/img/Icon SVG/Transportasi & Logistik.svg" width="60px" alt="">
             </div>
-            <h3 style="padding-bottom: 10px; font-family: 'Poppins';">Transportation & Logistics</h3>
+            <h3 style="padding-bottom: 10px; font-family: var(--font-dasar);">Transportation & Logistics</h3>
             <p>
-              We provide local online transportation and logistics services to facilitate the process of sending products to the Lamongan community.
+              We provide local online transportation and logistics services to facilitate the delivery of products to the Bitung community.
             </p>
           </div>
         </div>
@@ -258,8 +486,8 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
           <div class="card">
             <div class="icon-wrapper">
               <img src="../assets/img/Icon SVG/Makanan dan Belanja.svg" width="60px" alt="">            </div>
-            <h3 style="padding-bottom: 10px; font-family: 'Poppins';">Food & Shopping</h3>
-            <p>A feature service for buyers who want to shop for Lamongan products.</p>
+            <h3 style="padding-bottom: 10px; font-family: var(--font-dasar);">Food & Shopping</h3>
+            <p>A feature service for buyers who want to shop for Bitung's specialty products.</p>
           </div>
         </div>
         <div class="column">
@@ -267,9 +495,9 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
             <div class="icon-wrapper">
              <img src="../assets/img/Icon SVG/Wisata.svg" width="60px" alt="">
             </div>
-            <h3 style="padding-bottom: 10px; font-family: 'Poppins';">Tour</h3>
+            <h3 style="padding-bottom: 10px; font-family: var(--font-dasar);">Tour</h3>
             <p>
-              Service features to guide tourists to get to know tourist destinations in Lamongan Regency, so they can make reservations and order travel tickets digitally.
+              Service features to guide tourists to get to know tourist destinations in Bitung Regency, so they can make reservations and order travel tickets digitally.
             </p>
           </div>
         </div>
@@ -278,9 +506,9 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
             <div class="icon-wrapper">
                <img src="../assets/img/Icon SVG/Pembayaran.svg" width="60px" alt="">
             </div>
-            <h3 style="padding-bottom: 10px; font-family: 'Poppins';">Payment</h3>
+            <h3 style="padding-bottom: 10px; font-family: var(--font-dasar);">Payment</h3>
             <p>
-             A safe and reliable payment service to ensure payment security in the NikiLa POL application.
+              a safe and reliable payment service to ensure payment security in the Nyaku Bitung application.
             </p>
           </div>
         </div>
@@ -289,9 +517,9 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
             <div class="icon-wrapper">
                 <img src="../assets/img/Icon SVG/Modal Kerja.svg" width="60px" alt="">
             </div>
-            <h3 style="padding-bottom: 10px; font-family: 'Poppins';">Working capital</h3>
+            <h3 style="padding-bottom: 10px; font-family: var(--font-dasar);">Working capital</h3>
             <p>
-             Financing services for NikiLa POL partners, especially productive UMKM and UMKM partners.
+             Financing services for Nyaku Bitung partners, especially productive UMKM and UMKM partners.
             </p>
           </div>
         </div>
@@ -304,9 +532,8 @@ What is <span style="color: #1293E4;"> NikiLa POL</span></h2>
         <div class="container">
           <div class="row row-50 align-items-center flex-xl-row-reverse justify-content-center wow fadeInUp">
             <div class="col-xl-5 col-lg-8 col-md-9 text-center text-xl-left">
-              <h6>Category Service</h6>
-              <h2 style="font-family: 'Poppins';">Category
-Service</h2>
+              <h6>Service Category</h6>
+              <h2 style="font-family: var(--font-dasar);">Service Category</h2>
                 <a href="../html/layanan/layanan.html" class="button button-secondary button-nuka">More</a>
             </div>
             <div class="col-xl-7 col-lg-9">
@@ -332,12 +559,12 @@ Service</h2>
       <section class="section section-md bg-default">
          <div class="text-center wow fadeInUp pb-5">
               <h6>Partner</h6>
-              <h2 style="font-family: 'Poppins';">Join us</h2>
+              <h2 style="font-family: var(--font-dasar);">Join us</h2>
             </div>
             <div class="row">
-                <a class="card2" href="#">
+                <a class="card2" href="../html/mitra/mitra_driver/driver.html">
                       <img src="../assets/img/Icon Mitra/Mitra Driver.png" width="80px" alt="">
-                <h3 style="font-family: 'Poppins';">Partner Driver</h3>
+                <h3 style="font-family: var(--font-dasar);">Partner Driver</h3>
                 <p class="small">Be a community hero and get a full passive income</p>
                 
                 <div class="go-corner" href="#">
@@ -346,9 +573,9 @@ Service</h2>
                   </div>
                 </div>
               </a>
-                <a class="card2" href="#">
+                <a class="card2" href="../html/mitra/mitra_merchant/merchant.html">
                    <img src="../assets/img/Icon Mitra/Mitra Merchant.png" width="80px" alt="">
-                <h3 style="font-family: 'Poppins';">Partner Merchant</h3>
+                <h3 style="font-family: var(--font-dasar);">Partner Merchant</h3>
                 <p class="small">Expand and grow your sales with new technology</p>
                 
                 <div class="go-corner" href="#">
@@ -362,150 +589,138 @@ Service</h2>
         </div>
     </section>
     <!-- Akhir Ajakan Driver -->
-    
-       <!-- Blog -->
-    <div class="carousel-blog">
-  <div class="progress-bar progress-bar--primary hide-on-desktop">
-    <div class="progress-bar__fill"></div>
-  </div>
 
-<header class="main-post-wrapper">
-  
-  <div class="slides">
-    <article  class="main-post main-post--active">
-      <div class="main-post__image">
-        <img src="../assets/img/banner/Banner Mitra Driver.jpg" alt="New McLaren wind tunnel 'critical' to future performance, says Tech Director Key" />
-      </div>
-      <div class="main-post__content">
-        <div class="main-post__tag-wrapper">
-          <span class="main-post__tag">News Articles</span>
-        </div>
-        <h1 class="main-post__title">Become a Family Hero By Becoming a Driver Partner of NikiLa POL</h1>
-        <a class="main-post__link" href="#">
-              <span class="main-post__link-text">More</span>
-              <svg
-                class="main-post__link-icon main-post__link-icon--arrow"
-                width="37"
-                height="12"
-                viewBox="0 0 37 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
-                  stroke="white"
-                />
-              </svg>
-            </a>
-      </div>
-    </article>
-    <article class="main-post main-post--not-active">
-      <div class="main-post__image">
-        <img src="../assets/img/banner/Banner Mitra Merchant.jpg" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
-      </div>
-      <div class="main-post__content">
-        <div class="main-post__tag-wrapper">
-          <span class="main-post__tag">Video News</span>
-        </div>
-        <h1 class="main-post__title">NuKu releases his new video on Youtube</h1>
-        <a class="main-post__link" href="https://youtu.be/trb7WSUwHA8" data-lightgallery="item">
-              <svg
-                class="main-post__link-icon main-post__link-icon--play-btn"
-                width="30"
-                height="30"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="10"
-                  cy="10"
-                  r="9"
-                  stroke=var(--warna-dasar)
-                  stroke-width="2"
-                />
-                <path d="M14 10L8 6V14L14 10Z" fill="white" />
-              </svg>
-              <span class="main-post__link-text">Play Video</span>
-            </a>
-      </div>
-    </article>
-    <article class="main-post main-post--not-active">
-      <div class="main-post__image">
-        <img src="../assets/img/banner/Banner Tentang NikiLaPOL.jpg" alt="Hamilton wants harder championship fight from Leclerc and
-            Verstappen" />
-      </div>
-      <div class="main-post__content">
-        <div class="main-post__tag-wrapper">
-          <span class="main-post__tag">News Articles</span>
-        </div>
-        <h1 class="main-post__title">Lamongan Officially Releases NikiLa POL Application in Lamongan District
-        </h1>
-        <a class="main-post__link" href="#">
-              <span class="main-post__link-text">More</span>
-              <svg
-                class="main-post__link-icon main-post__link-icon--arrow"
-                width="37"
-                height="12"
-                viewBox="0 0 37 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
-                  stroke="white"
-                />
-              </svg>
-            </a>
-      </div>
-    </article>
-  </div>
-</header>
+<!-- Showcase -->
+<section class="section section-md bg-default">
+<div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+             <div class="col4">
+                <div class="content wow fadeInUp">
+                    <h6>Nyaku Bitung</h6>
+                    <p class=" h2 mb-4">More Than Just a Marketplace</p>
+                    <p class="text-muted mb-4">Nyaku Bitung is a solution and service to empower millions of sellers of local wisdom products and consumers to participate in building the economic resilience of Bitung Regency
+                    <p><a href="../html/layanan/layanan.html" class="button button-secondary button-nuka">More</a></p>
+                </div>
+            </div>
+          </div>
+        <div class="col-md-6">
+          <div class="align-items-center justify-content-center">
+          <div id="carousel" class="owl-carousel wow fadeInUp ">
+            <div>
+              <img width="75%" id="img-1" class="image-app" src="../assets/img/Showcase Mockup/Homescreen.png">
+            </div>
 
-<!-- Blog -->
-<div class="posts-wrapper hide-on-mobile">
-  <article onclick="location.href='#' " style="cursor: pointer;" class="post post--active">
-    <div class="progress-bar">
-      <div class="progress-bar__fill"></div>
-    </div>
-    <header class="post__header">
-      <span class="post__tag">News Articles</span>
-      <p class="post__published">16 August 2019</p>
-    </header>
-    <h2 class="post__title">Become a Family Hero By Becoming a Driver Partner of NikiLa POL</h2>
-  </article>
-  <article onclick="location.href='#' " style="cursor: pointer;" class="post">
-    <div class="progress-bar">
-      <div class="progress-bar__fill"></div>
-    </div>
-    <header class="post__header">
-      <span class="post__tag">News Video</span>
-      <p class="post__published">12 August 2019</p>
-    </header>
-    <h2 class="post__title">NuKu releases his new video on Youtube</h2>
-  </article>
-  <article onclick="location.href='#' " style="cursor: pointer;" class="post">
-    <div class="progress-bar">
-      <div class="progress-bar__fill"></div>
-    </div>
-    <header class="post__header">
-      <span class="post__tag">News Articles</span>
-      <p class="post__published">08 August 2019</p>
-    </header>
-    <h2 class="post__title">Lamongan Officially Releases NikiLa POL Application in Lamongan District
-    </h2>
-  </article>
+            <div>
+              <img width="75%" id="img-2" class="image-app" src="../assets/img/Showcase Mockup/Anterin.png">
+            </div>
+
+            <div>
+              <img width="75%" id="img-3" class="image-app" src="../assets/img/Showcase Mockup/All Produk.png">
+            </div>
+
+            <div>
+              <img width="75%" id="img-4" class="image-app" src="../assets/img/Showcase Mockup/Produk Screen.png">
+            </div>
+
+            <div>
+              <img width="75%" id="img-5" class="image-app" src="../assets/img/Showcase Mockup/Reservasi.png">
+            </div>
 </div>
+          </div>
+      </div>
+    </div>
+      </div> 
+      </section>
+      <!-- End Showcae -->
+
+          <!-- Blog -->
+          <!-- <section class="section section-md bg-default">
+             <div class="text-center wow fadeInUp">
+              <h6>Nikila Blog</h6>
+              <h2 style="font-family: var(--font-dasar);">Ikuti Blog Kami Dan Dapatkan Informasi Menarik</h2>
+            </div>
+    <div class="band wow fadeInUp">
+  <div class="item-1">
+    <a href="/html/bantuan/akun/blog/blog_akun.html" class="card-blog">
+      <div class="thumb" style="background-image: url(assets/img/banner/bg-home\ Left.jpg);"></div>
+      <article>
+        <h1>Dari Lamongan Untuk Masyarakat Lamongan</h1>
+        <p>Lamongan hadirkan Aplikasi Nyaku Bitung untuk mengingkatkan PAD </p>
+        <span>Baca Selengkapnya</span>
+      </article>
+    </a>
+  </div>
+  <div class="item-2">
+    <a href="/html/bantuan/akun/blog/blog_akun.html" class="card-blog">
+      <div class="thumb" style="background-image: url(assets/img/banner/Banner\ Ads\ 1.png);"></div>
+      <article>
+        <h1>Para UMKM Bersorak!!</h1>
+        <p>UMKM Lamongan Sangat Antusian Akan Kehadiran Aplikasi Baru Kabupaten Lamongan </p>
+        <span>Baca Selengkapnya</span>
+      </article>
+    </a>
+  </div>
+  <div class="item-3">
+    <a href="/html/bantuan/akun/blog/blog_akun.html" class="card-blog">
+      <div class="thumb" style="background-image: url(assets/img/banner/Banner\ Ads\ 2.png);"></div>
+      <article>
+        <h1>Termurah Tergokil !</h1>
+        <p>UMKM Lamongan Sangat Antusian Akan Kehadiran Aplikasi Baru Kabupaten Lamongan </p>
+        <span>Baca Selengkapnya</span>
+      </article>
+    </a>
+  </div>
+  <div class="item-4">
+    <a href="/html/bantuan/akun/blog/blog_akun.html" class="card-blog">
+      <div class="thumb" style="background-image: url(assets/img/banner/Banner\ Ads\ 3.png);"></div>
+      <article>
+        <h1>Termurah Tergokil !</h1>
+        <p>UMKM Lamongan Sangat Antusian Akan Kehadiran Aplikasi Baru Kabupaten Lamongan </p>
+        <span>Baca Selengkapnya</span>
+      </article>
+    </a>
+  </div>
+  <div class="item-5">
+   <a href="/html/bantuan/akun/blog/blog_akun.html" class="card-blog">
+      <div class="thumb" style="background-image: url(assets/img/banner/Banner\ Ads\ 4.png);"></div>
+      <article>
+        <h1>Termurah Tergokil !</h1>
+        <p>UMKM Lamongan Sangat Antusian Akan Kehadiran Aplikasi Baru Kabupaten Lamongan </p>
+        <span>Baca Selengkapnya</span>
+      </article>
+    </a>
+  </div>
+  <div class="item-6">
+   <a href="/html/bantuan/akun/blog/blog_akun.html" class="card-blog">
+      <div class="thumb" style="background-image: url(assets/img/banner/Banner\ Ads\ 5.png);"></div>
+      <article>
+        <h1>Termurah Tergokil !</h1>
+        <p>UMKM Lamongan Sangat Antusian Akan Kehadiran Aplikasi Baru Kabupaten Lamongan </p>
+        <span>Baca Selengkapnya</span>
+      </article>
+    </a>
+  </div>
+  <div class="item-7">
+   <a href="/html/bantuan/akun/blog/blog_akun.html" class="card-blog">
+      <div class="thumb" style="background-image: url(assets/img/banner/Banner\ Ads\ 6.png);"></div>
+      <article>
+        <h1>Termurah Tergokil !</h1>
+        <p>UMKM Lamongan Sangat Antusian Akan Kehadiran Aplikasi Baru Kabupaten Lamongan </p>
+        <span>Baca Selengkapnya</span>
+      </article>
+    </a>
+  </div>
 </div>
+</section> -->
 <!-- End Blog -->
-
     
     <!-- Banner CTA -->
          <section id="cta">
             <div class="container">
                 <div class="box-cta">
-                    <div class="cta-text" data-aos="fade-right">Love Lamongan Products.<br> Love Regional Products.<br> Come on, download<br>right now</div>
-                    <a href="#" class="btn btn-cta" title="Download NikiLa" target="_blank" data-aos="fade-down">
+                    <div class="cta-text" data-aos="fade-right">Love Bitung Products.<br>Love Regional Products.<br> Come on, download<br> Right now</div>
+                    <a href="#" class="btn btn-cta" title="Download Nyaku" target="_blank" data-aos="fade-down">
                         <i class="fab fa-google-play"></i> Play store
                     </a>
                 </div>
@@ -513,61 +728,60 @@ Service</h2>
         </section>
     <!-- End Banner CTA -->
 
-
         <!-- Footer -->
         <footer>
             <div class="container">
                 <div class="row-footer">
                     <div class="logo-bottom">
-                        <img src="../assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="NikiLa" title="NikiLa">
+                        <img src="../assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="Nyaku" title="Nyaku">
                     </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="box-footer1">
                                 <div class="footer-text">
-                                    NikiLa Pasar Online Lamongan or abbreviated as NikiLa POL is a Super Apps that combines Marketplace and Delivery Order, which has the aim of being a place for selling local wisdom products of Lamongan Regency and to increase the Regency's PAD (Regional Original Income).
+                                   Nyaku Bitung is a Super Apps that combines <em>Marketplace</em> And <em>Delivery Order</em>, which has the aim of being a place to sell local wisdom products in Bitung Regency and to increase sales of UMKM actors in Bitung Regency.
                                 </div>
                                 <div class="box-sosmed">
-                                    <a href="#" title="Facebook NikiLa" target="_blank"><i class="fab fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/nuku.id_of/" title="Instagram NikiLa" target="_blank"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/NuKu_id" title="Twitter NikiLa" target="_blank"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" title="Youtube NikiLa" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                                    <a href="https://www.tiktok.com/@nuku_id" title="TikTok NikiLa" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                                    <a href="#" title="Facebook Nyaku" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/nuku.id_of/" title="Instagram Nyaku" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://twitter.com/NuKu_id" title="Twitter Nyaku" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" title="Youtube Nyaku" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="https://www.tiktok.com/@nuku_id" title="TikTok Nyaku" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="box-footer2">
-                                <h2 style="font-family: 'Poppins';">Join</h2>
+                                <h2 style="font-family: var(--font-dasar);">Join</h2>
                                 <ul class="list1 pt-4">
-                                    <li><a href="#" title="">Partner Merchant</a></li>
-                                    <li><a href="#" title="">Partner Driver</a></li>
+                                    <li><a href="syarat-merchant.html" title="">Partner Merchant</a></li>
+                                    <li><a href="syarat-driver.html" title="">Partner Driver</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="box-footer2">
-                                <h2 style="font-family: 'Poppins';">Shortcut</h2>
+                                <h2 style="font-family: var(--font-dasar);">Shorcut</h2>
                                 <ul class="list1 pt-4">
-                                    <li><a href="../html-en/mitra-driver.html" title="">Partner Driver</a></li>
-                                    <li><a href="../html-en/mitra-merchant.html" title="">Partner Merchant</a></li>
-                                    <li><a href="../html-en/layanan.html" title="">Service</a></li>
-                                    <li><a href="../html-en/tentang.html" title="">About NikiLa POL</a></li>
+                                    <li><a href="../html/mitra/mitra_driver/driver.html" title="">Partner Driver</a></li>
+                                    <li><a href="../html/mitra/mitra_merchant/merchant.html" title="">Partner Merchant</a></li>
+                                    <li><a href="../html/layanan/layanan.html" title="">Service</a></li>
+                                    <li><a href="../html/privacy/privacy.html" title="">Privacy Police</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="box-footer3">
-                                <h2 style="font-family: 'Poppins';">Contact Us</h2>
+                                <h2 style="font-family: var(--font-dasar);">Hubungi Kami</h2>
                                 <ul class="list1 pt-4">
-                                    <li><i class="fas fa-envelope"></i>support@nikilapol.com</li>
+                                    <li><i class="fas fa-envelope"></i>support@nyakubitung.com</li>
                                     <li><i class="fa-brands fa-whatsapp"></i><a href="#">+62 812-812-812</li></a>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="box-copy">
-                        &copy; 2022. <b>NikiLa POL</b>. All Rights Reserved
+                        &copy; 2022. <b>Nyaku Bitung</b>. All Rights Reserved
                     </div>
                   <div class="img-nuku">
                     <img src="../assets/img/Powered by NuKu.png" width="150px" alt="">
@@ -576,9 +790,11 @@ Service</h2>
             </div>
         </footer>
         <!-- Akhir Footer -->
-   
     <div class="snackbars" id="form-output-global"></div>
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/popper.min.js"></script>
   </body>
 </html>
