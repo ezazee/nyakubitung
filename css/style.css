@@ -63,13 +63,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
  :root {
- 	--warna-dasar: #1293E4;
- 	--warna-kedua: #07476f;
- 	--warna-ketiga: #09507c;
- 	--warna-putih1: #fff;
- 	--warna-putih2: #fafafa;
- 	--font-dasar: 'Poppins', sans-serif;
- 	--size-font-subtitle: 50px;
+  --warna-dasar: #B70909;
+    --warna-kedua: #660707;
+    --warna-ketiga: #500202;
+    --warna-putih1: #fff;
+    --warna-putih2: #fafafa;
+    --font-dasar: 'Poppins', sans-serif;
+    --size-font-subtitle: 50px;
  }
 
 *,
@@ -25098,19 +25098,19 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static.context-dark .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-gray-700 .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-gray-800 .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-primary-app .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-primary .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-primary-1 .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-primary-2 .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-gradient-primary .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.rd-navbar-corporate .rd-nav-item.focus .rd-nav-link, .rd-navbar-static.context-dark .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-gray-700 .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-gray-800 .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-primary-app .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-primary .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-primary-1 .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-primary-2 .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-gradient-primary .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-item.opened .rd-nav-link, .rd-navbar-static.rd-navbar-corporate .rd-nav-item.opened .rd-nav-link {
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-static.context-dark .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gray-700 .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gray-800 .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-app .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-1 .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-2 .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gradient-primary .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.rd-navbar-corporate .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static.context-dark .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gray-700 .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gray-800 .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-app .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-1 .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-2 .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gradient-primary .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-item.opened > .rd-navbar-submenu-toggle, .rd-navbar-static.rd-navbar-corporate .rd-nav-item.opened > .rd-navbar-submenu-toggle {
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-static.context-dark .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-gray-700 .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-gray-800 .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-primary-app .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-primary .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-primary-1 .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-primary-2 .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-gradient-primary .rd-nav-item.active .rd-nav-link, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-item.active .rd-nav-link, .rd-navbar-static.rd-navbar-corporate .rd-nav-item.active .rd-nav-link {
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-static.context-dark .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gray-700 .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gray-800 .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-app .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-1 .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-primary-2 .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gradient-primary .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-static.rd-navbar-corporate .rd-nav-item.active > .rd-navbar-submenu-toggle {
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-static.context-dark .rd-nav-link, .rd-navbar-static.bg-gray-700 .rd-nav-link, .rd-navbar-static.bg-gray-800 .rd-nav-link, .rd-navbar-static.bg-primary-app .rd-nav-link, .rd-navbar-static.bg-primary .rd-nav-link, .rd-navbar-static.bg-primary-1 .rd-nav-link, .rd-navbar-static.bg-primary-2 .rd-nav-link, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-link, .rd-navbar-static.bg-gradient-primary .rd-nav-link, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-link, .rd-navbar-static.rd-navbar-corporate .rd-nav-link {
@@ -25130,7 +25130,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static.context-dark .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-gray-700 .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-gray-800 .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-primary-app .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-primary .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-primary-1 .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-primary-2 .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-wave-dark-wrap .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-gradient-primary .rd-navbar-search-toggle:hover, .rd-navbar-static.bg-gradient-primary-1 .rd-navbar-search-toggle:hover, .rd-navbar-static.rd-navbar-corporate .rd-navbar-search-toggle:hover {
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-static.rd-navbar--is-stuck.context-dark, .rd-navbar-static.rd-navbar--is-stuck.bg-gray-700, .rd-navbar-static.rd-navbar--is-stuck.bg-gray-800, .rd-navbar-static.rd-navbar--is-stuck.bg-primary-app, .rd-navbar-static.rd-navbar--is-stuck.bg-primary, .rd-navbar-static.rd-navbar--is-stuck.bg-primary-1, .rd-navbar-static.rd-navbar--is-stuck.bg-primary-2, .rd-navbar-static.rd-navbar--is-stuck.bg-wave-dark-wrap, .rd-navbar-static.rd-navbar--is-stuck.bg-gradient-primary, .rd-navbar-static.rd-navbar--is-stuck.bg-gradient-primary-1, .rd-navbar-static.rd-navbar--is-stuck.rd-navbar-corporate {
@@ -25664,7 +25664,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-fixed.context-dark .rd-navbar-toggle span, .rd-navbar-fixed.bg-gray-700 .rd-navbar-toggle span, .rd-navbar-fixed.bg-gray-800 .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary-app .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary-1 .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary-2 .rd-navbar-toggle span, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-toggle span, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-toggle span, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-toggle span, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-toggle span, .rd-navbar-fixed.context-dark .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gray-700 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gray-800 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary-app .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary-1 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary-2 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-toggle span::before, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-toggle span::before, .rd-navbar-fixed.context-dark .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gray-700 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gray-800 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary-app .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary-1 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary-2 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-toggle span::after, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-toggle span::after {
-	background-color: #1293E4;
+	background-color: var(--warna-dasar);
 }
 
 .rd-navbar-fixed.context-dark .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gray-700 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gray-800 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary-app .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary-1 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary-2 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-collapse-toggle, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-collapse-toggle,
@@ -25693,12 +25693,12 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-corporate.rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, .rd-navbar-corporate.rd-navbar-fixed .rd-nav-item.active .rd-nav-link {
 	background-color: transparent;
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-corporate.rd-navbar-fixed .rd-navbar-dropdown li:hover > a, .rd-navbar-corporate.rd-navbar-fixed .rd-navbar-dropdown li.active > a {
 	background-color: transparent;
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-corporate.rd-navbar-fixed .rd-navbar-panel {
@@ -25719,7 +25719,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate .rd-navbar-collapse-toggle span,
 .rd-navbar-corporate .rd-navbar-collapse-toggle span::before,
 .rd-navbar-corporate .rd-navbar-collapse-toggle span::after {
-	background-color: #1293E4;
+	background-color: var(--warna-dasar);
 }
 
 .rd-navbar-corporate .rd-navbar-nav-wrap {
