@@ -517,8 +517,8 @@ mark,
 .img-fluid {
     max-width: 100%;
     height: auto;
-    padding: 67px;
-    border-radius: 93px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .img-thumbnail {
