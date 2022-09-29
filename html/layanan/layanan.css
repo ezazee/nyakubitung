@@ -1,12 +1,12 @@
-    :root {
-        --warna-dasar: #1293E4;
-        --warna-kedua: #07476f;
-        --warna-ketiga: #09507c;
-        --warna-putih1: #fff;
-        --warna-putih2: #fafafa;
-        --font-dasar: 'Poppins', sans-serif;
-        --size-font-subtitle: 50px;
-    }
+      :root{
+    --warna-dasar: #B70909;
+    --warna-kedua: #660707;
+    --warna-ketiga: #500202;
+    --warna-putih1: #fff;
+    --warna-putih2: #fafafa;
+    --font-dasar: 'Poppins', sans-serif;
+    --size-font-subtitle: 50px;
+  }
 
 .beer-slider {
     display: inline-block;
@@ -79,7 +79,7 @@
 
 .beer-slider {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 }
 
 .ctnr {
@@ -218,9 +218,6 @@ p {
         right: 2rem;
     }
 
-    .ctnr-summer:after {
-        background: linear-gradient(180deg, var(--warna-dasar), transparent 120%);
-    }
 }
 
 main {
@@ -336,7 +333,7 @@ main {
         position: relative;
         margin-top: -420px;
         background-color: var(--warna-ketiga);
-        height: 480vh;
+        height: 170vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }

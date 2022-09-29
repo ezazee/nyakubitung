@@ -1,11 +1,11 @@
-  :root {
-      --warna-dasar: #1293E4;
-      --warna-kedua: #07476f;
-      --warna-ketiga: #09507c;
-      --warna-putih1: #fff;
-      --warna-putih2: #fafafa;
-      --font-dasar: 'Poppins', sans-serif;
-      --size-font-subtitle: 50px;
+      :root{
+    --warna-dasar: #B70909;
+    --warna-kedua: #660707;
+    --warna-ketiga: #500202;
+    --warna-putih1: #fff;
+    --warna-putih2: #fafafa;
+    --font-dasar: 'Poppins', sans-serif;
+    --size-font-subtitle: 50px;
   }
 
 .container {
@@ -22,9 +22,6 @@
     margin: 0;
 }
 
-.hero-bg {
-    
-}
 
 .hero-bg::after {
     content: '';
