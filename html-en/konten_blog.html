@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>How to Join a Merchant Partner</title>
+    <title>Reward For First 100 Drivers !!</title>
     <meta charset="utf-8">
     <meta name="keywords" content="Nyaku, Marketplace, Bitung, Driver ">
     <meta name="title" content="Nyaku Bitung">
@@ -15,14 +15,14 @@
 
 
     <!-- Open Graph / Facebook -->
-<meta property="og:type" content="../assets/img/banner/banner08.jpg">
+<meta property="og:type" content="assets/img/banner/banner08.jpg">
 <meta property="og:url" content="www.nyakubitung.com">
 <meta property="og:title" content="Nyaku Bitung || Marketplace yang digabungkan dengan Delivery Order">
 <meta property="og:description" content="Marketplace yang digabungkan dengan Delivery Order">
 <meta property="og:image" content="../assets/img/banner/banner08.jpg">
 
 <!-- Twitter -->
-<meta property="twitter:card" content="../assets/img/banner/banner08.jpg">
+<meta property="twitter:card" content="assets/img/banner/banner08.jpg">
 <meta property="twitter:url" content="www.nyakubitung.com">
 <meta property="twitter:title" content="Nyaku Bitung || Marketplace yang digabungkan dengan Delivery Order">
 <meta property="twitter:description" content="Marketplace yang digabungkan dengan Delivery Order">
@@ -31,13 +31,14 @@
     <link rel="icon" href="../assets/img/logo/nikila.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900%7CMerriweather:300,400,700,700i,900">
-    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../html/mitra/mitra_merchant/merchant.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../html/blog/konten/konten_antar/konten_antar.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  
 
     <style>
-            :root{
+      :root{
     --warna-dasar: #B70909;
     --warna-kedua: #660707;
     --warna-ketiga: #500202;
@@ -47,7 +48,8 @@
     --size-font-subtitle: 50px;
   }
 
-    /* Button Arrow To Top Webstie */
+
+  /* Button Arrow To Top Webstie */
   .ui-to-top {
 	position: fixed;
 	right: 15px;
@@ -74,7 +76,6 @@
 }
 /* End Button ARROW  */
 
-
   /* Pre Loader */
   .cssload-speeding-wheel {
 	width: 64px;
@@ -88,7 +89,8 @@
   }
 /* End Pre Loader */
 
-  /* Button Belanja Sekarang & Button Daftar Sekarang */
+  
+      /* Button Belanja Sekarang & Button Selengkapnya di Kategori Layanan */
       .button-secondary, .button-secondary:focus {
 	    color: #ffffff;
 	    background-color: var(--warna-dasar);
@@ -102,13 +104,13 @@
       }
 
       .button-secondary.button-nuka:hover, .button-secondary.button-nuka:active, .button-secondary.button-nuka.active {
-        background-color: var(--warna-kedua);
+	background-color: var(--warna-kedua);
       }
 
       .button-secondary.button-nuka .button-overlay {
         background-color: var(--warna-kedua);
       }
-      /* End Button Belanja Sekarang & Button Daftar Sekarang */
+      /* End Button Belanja Sekarang & Button Selengkapnya di Kategori Layanan */
 
 
       /* Hover Text Navbar */
@@ -117,84 +119,96 @@
       }
       /* End Hover Text Navbar */
 
-          /* Card Kenapa Gabung */
-    
-.card:hover .circle {
-    border-color: var(--warna-kedua);
-    background: var(--warna-kedua);
+
+       /* Button Seacrj */
+       .c-search__button {
+      position: absolute;
+      min-height: 2.75rem;
+      min-width: 4rem;
+      background-color: transparent;
+      font-size: 1rem;
+      color: var(--warna-kedua);
+      border: none;
+      border-top-right-radius: 24px;
+      border-bottom-right-radius: 24px;
+      text-align: center;
+      right: 0;
+      top: 0;
+      font-weight: 400;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      cursor: pointer;
+      -webkit-transition: .3s;
+      transition: .3s;
+      padding: .5rem;
+      font-family: var(--font-dasar)
+  }
+
+    .c-search__button:active {
+      background-color: var(--warna-ketiga)
+  }
+
+  @media (min-width:768px) {
+      .c-search__button {
+          position: relative;
+          top: auto;
+          right: auto;
+          color: #fff;
+          background-color: var(--warna-kedua);
+          min-height: 3rem;
+          min-width: 7.5rem;
+          border-radius: 24px;
+          font-size: 1rem
+      }
+  }
+  /* End Button Search */
+
+  /* Button Outline Suka atau Tidak */
+  button.btn--outline {
+    border: 1px solid var(--warna-dasar);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-color: #fff;
+    color: var(--warna-dasar);
 }
 
-.card:hover .circle:after {
-    background: var(--warna-dasar);
+button.btn--outline:hover {
+    border: 1px solid var(--warna-kedua);
+    background-color: var(--warna-kedua);
+    color: #fff
 }
 
-.card:hover p {
-    color: var(--warna-putih1);
+button.btn--outline:active,
+button.btn--outline:focus {
+    background-color: var(--warna-kedua)
 }
 
+/* End Button Outline SUka Atau Tidak */
 
-.circle {
-    width: 131px;
-    height: 131px;
-    border-radius: 50%;
-    background: #fff;
-    border: 2px solid var(--warna-ketiga);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease-out;
-}
 
-.circle:after {
-    content: "";
-    width: 118px;
-    height: 118px;
-    display: block;
-    position: absolute;
-    background: var(--warna-ketiga);
-    border-radius: 50%;
-    top: 7px;
-    left: 7px;
-    transition: opacity 0.3s ease-out;
-}
-
-.overlay {
-    width: 118px;
-    position: absolute;
-    height: 118px;
-    border-radius: 50%;
-    background: var(--warna-dasar);
-    top: 70px;
-    left: 50px;
-    z-index: 0;
-    transition: transform 0.3s ease-out;
-}
-
-/* End Card Kenapa Gabung */
-
-/* Button Aktif Tutor Pesen */
-.aktif{
-    background: var(--warna-kedua);
-    color: #FFF;
-}
-/* End Button */
-
-/* CTA banner */
+ /* Banner CTA */
 #cta {
     padding: 50px 0;
-    background: var(--warna-kedua) url(../../../assets/img/Ilustrasi/Daftar.png)  no-repeat;
-    background-size: 40%;
+    background: var(--warna-ketiga) url(../../../../assets/img/Smatphone/smartphone-full.png) -200px center no-repeat;
+    background-size: 67%;
     position: relative;
 }
 
 @media screen and (max-width: 576px) {
     #cta {
-    padding: 50px 0;
-    background: var(--warna-kedua) url(../../../assets/img/home-img.png) -110% no-repeat;
-    background-size: 20%;
-    position: relative;
+        padding: 50px 0;
+        background: var(--warna-kedua) url(../../../../assets/img/home-img.png) -110% no-repeat;
+        background-size: 20%;
+        position: relative;
     }
 
     #cta .box-cta {
@@ -219,18 +233,19 @@
         font-weight: 600;
         padding: 8px 20px;
     }
+  }
 
-}
-/* END CTA Banner */
+  /* end banner CTA */
 
-/* Footer */
+
+  /* Footer */
 footer {
     background: var(--warna-kedua);
     padding: 50px 0 0 0;
     color: #E9E9E9;
 }
+/* End Footer */
     </style>
-
 
   </head>
   <body>
@@ -242,7 +257,7 @@ footer {
       </div>
     </div>
     <div class="page">
-      
+
       <!-- Header -->
       <header class="section page-header">
         <!--RD Navbar-->
@@ -351,81 +366,162 @@ footer {
       </header>
       <!-- End Header -->
 
-      <!-- Hero -->
-        <section class="hero-bg" style=" background-image: url(../assets/img/banner/Banner\ Mitra\ Merchant.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    z-index: 1;">
-               <div class="container">
-                   <div class="hero row ">
-                       <div class="text-hero">
-                           <h1>Interested in Becoming Our Merchant?</h1>
-                           <p>Check the Terms and Benefits Here</p>
-                       </div>
-                       <div class="btns row">
-                        <a href="#" class="button button-secondary button-nuka">Sign Up Now</a>
-                    </div>
-                   </div>
-               </div>
-           </section>
-           <!-- End Hero -->
+  <main class="component-wrapper">
+    
 
-           
-                      <!-- Persyaratan -->
-           <section class="section section-lg bungkus-fitur bg-gray-100">
-            <div class="container text-center text-lg-left">
-              <h2><span class="text-bold text-white wow fadeInUp" style="font-family: 'Poppins';">Requirements to Become a Nyaku Bitung Partner</h2>
-              <div class="row mt-5 justify-content-center flex-wrap row-30 number-counter-2   wow fadeInUp">
-                <div class="col-md-4">
-                  <div class="box-numbered-left unit">
-                    <div class="unit-body">
-
-                      <img src="../assets/img/Asset Persyaratan/Icon Persyaratan/Data Diri.png" alt="Nyaku Bitung Data Diri" width="100px">                             
-                      <h4 style="color: var(--warna-putih1); margin-top: 20px; font-family: 'Poppins';">Personal Data Info</h4>
-                      <div  style="color: var(--warna-putih1);" class="content">KTP, Name According to KTP, ETC.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="box-numbered-left unit">
-                    <div class="unit-body">
-                       <img src="../assets/img/Asset Persyaratan/Icon Persyaratan/Info Toko.png" alt="Nyaku Bitung Info Toko" width="100px">
-                       <h4 style="color: var(--warna-putih1); margin-top: 20px; font-family: 'Poppins';">Store Information</h4>
-                        <div style="color: var(--warna-putih1);" class="content">Such as Store Name, Store Address and Store Branch</div>
-
-                      </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="box-numbered-left unit">
-                    <div class="unit-body">
-                        <img src="../assets/img/Asset Persyaratan/Icon Persyaratan/Perizinan Toko.png" alt="Nyaku Bitung Perizinan Toko" width="100px">
-                        <h4 style="color: var(--warna-putih1); margin-top: 20px; font-family: 'Poppins';">Permissions (If Any)</h4>
-                        <div style="color: var(--warna-putih1);" class="content">Must Include If You Have</div>
-
-                      </div>
-                  </div>
-                </div>
-              </div>
+<section class="mb-md-4 pb-md-1 mb-4 js-search-box c-search-box c-search-box--sticky c-search-box--static__mobile">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row col-12 align-items-center u-hide--tablet-desktop">
+						
+						
+						
             </div>
-          </section>
 
- <!-- Banner CTA -->
+						<div class="col-12 offset-md-2 col-md-8 c-search-box--mobile pt-2 pt-md-0 active" id="form-mobile">
+							<form  method="GET">
+								<div class="row c-filter-box">
+									<div class="c-search col-md-12">
+										<input type="text" placeholder="Cari Masalah Anda..." class="c-search__field" name="q" autocomplete="off" value="" />
+										<button class="c-search__button" type="submit">
+											<i class="fa fa-search"></i> <span class="u-hide--mobile ml-1">Search</span>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<article class="container-fluid">
+	<div class="container">
+<div class="row d-md-flex">
+	<div class="col-12 col-md-2"></div>
+	<nav class="c-breadcrumbs col-12 col-md-8" aria-label="breadcrumb">
+		<ol class="c-breadcrumbs__ol mt-0">
+			<li class="c-breadcrumbs-item active" itemprop="itemListElement" itemscope
+				itemtype="http://schema.org/ListItem" aria-current="page">
+				<span itemprop="name">Nyaku Antar /</span>
+				<span itemprop="name">3 Juni 2022</span>
+				<meta itemprop="position" content="1" />
+			</li>
+		</ol>
+	</nav>
+</div>
+
+ <!-- <div class="share-btn-container">
+      <a href="#" class="facebook-btn">
+        <i class="fab fa-facebook"></i>
+      </a>
+
+      <a href="#" class="twitter-btn">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="#" class="pinterest-btn">
+        <i class="fab fa-pinterest"></i>
+      </a>
+
+      <a href="#" class="linkedin-btn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a href="#" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div> -->
+
+		<section class="c-section c-faq-detail">
+			<div class="row">
+				<div class="c-faq-detail__content col-12 offset-md-2 col-md-8">
+					<div class="c-faq-detail__header">
+						<h1 class="c-faq-detail__title">First Reward For First 100 Drivers !</h1>
+					</div>
+
+          <figure class="text-center"><img class="lazy" data-image="11119"  src="../../../../assets/img/banner/Slide_WEB Banner_Driver.jpg" style="height: auto;width: 100%; border-radius: 10px;"/></figure>
+
+					<div class="c-faq-detail__body">
+            <p>Hello Partners</p>
+
+            <p>There is good news for prospective Driver Partners for Nyaku Bitung!</p>
+
+            <p>That is, there are the first 100 lucky drivers to get exclusive & mandatory items of course for Nyaku Bitung Drivers</p>
+
+            <h6>Driver Jacket</h6>
+              <br>
+            <p>Don't underestimate it, the use of a jacket when driving is also very important for Nyaku Bitung Driver Partners. Among them</p>
+            <ol>
+                <li>1. Maintain Body Temperature</li>
+                <li>2. Reducing the Risk of Injury</li>
+                <li>3. Preventing Disease Risk</li>
+                <li>4. Prevent Wind Entering Body</li>
+            </ol> 
+            
+
+            <h6>Helmet Driver</h6>
+              <br>
+            <p>This one is also very important when traveling. There are several important points that can take care of Partners & their Customers.</p>
+            <ol>
+                <li>1. Protecting the Head When An Accident Occurs</li>
+                <li>2. Avoid Dust and Other Air Pollution</li>
+                <li>3. Keeping Your Eyesight To Stay Comfortable</li>
+            </ol> 
+            
+
+            <p>Let's Register to be a Nyaku Bitung Driver<a href="syarat-driver.html">click here for the details!</a> </p>
+            </div>
+
+					<div class="c-faq-detail__footer">
+						
+						
+
+						<p class="c-faq-detail__helpful u-text-align__center">Was this article helpful enough?</p>
+						<div class="c-faq-detail__buttons row justify-content-md-center">
+							<a  href="#" 
+								onclick="return false" 
+								class="js-snackbar col col-md-auto col-lg-auto"
+								data-snack-label="&lt;strong&gt;Great&lt;/strong&gt;, Thank you for your response" 
+								data-snack-color=""
+								data-snack-timer="4000">
+								<button class="btn btn-primary btn--outline col-12 col-lg-auto js-show-popup">Yes</button>
+							</a>
+							<a  href="#" 
+								onclick="return false" 
+								class="js-snackbar col col-md-auto col-lg-auto pl-1 pl-md-2"
+								data-snack-label="We will try better next time, Thank You" 
+								data-snack-color=""
+								data-snack-timer="4000">
+								<button class="btn btn-primary btn--outline col-12 col-lg-auto">No</button>
+							</a>
+						</div>
+
+						
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+</article>
+    </main>
+
+    
+<!-- Banner CTA -->
          <section id="cta">
             <div class="container">
                 <div class="box-cta">
-                    <div class="cta-text" data-aos="fade-right">Want to join as <br> a Driver partner?<br> Come on, check the requirements </div>
-                    <a href="syarat-driver.html" class="btn btn-cta" title="Download Nyaku" target="_blank" data-aos="fade-down">
-                        <i class="fa-solid fa-clipboard"></i> Check Here
+                    <div class="cta-text" data-aos="fade-right">Love Bitung Products.<br>Love Regional Products.<br> Come on, download<br> Right now</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.nusantaraku.nyaku_app_user_merchant" class="btn btn-cta" title="Download Nyaku" target="_blank" data-aos="fade-down">
+                        <i class="fab fa-google-play"></i> Play store
                     </a>
                 </div>
             </div>
         </section>
     <!-- End Banner CTA -->
-
 
         <!-- Footer -->
         <footer>
@@ -440,7 +536,7 @@ footer {
                                 <div class="footer-text">
                                    Nyaku Bitung is a Super Apps that combines <em>Marketplace</em> And <em>Delivery Order</em>, which has the aim of being a place to sell local wisdom products in Bitung Regency and to increase sales of UMKM actors in Bitung Regency.
                                 </div>
-                               <div class="box-sosmed">
+                                <div class="box-sosmed">
                                     <a href="https://www.facebook.com/Nyaku-Bitung-104920565719102" title="Facebook Nyaku" target="_blank"><i class="fab fa-facebook"></i></a>
                                     <a href="https://www.instagram.com/nyakubitung.id/" title="Instagram Nyaku" target="_blank"><i class="fab fa-instagram"></i></a>
                                     <a href="https://twitter.com/Nyaku_Bitung_id" title="Twitter Nyaku" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -473,7 +569,7 @@ footer {
                             <div class="box-footer3">
                                 <h2 style="font-family: var(--font-dasar);">Hubungi Kami</h2>
                                 <ul class="list1 pt-4">
-                                      <li><i class="fas fa-envelope"></i><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nyakubitung.id@gmail.com">nyakubitung.id@gmail.com</a></li>
+                                     <li><i class="fas fa-envelope"></i><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nyakubitung.id@gmail.com">nyakubitung.id@gmail.com</a></li>
                                     <li><i class="fa-brands fa-whatsapp"></i><a href="#">+62 812-812-812</li></a>
                                 </ul>
                             </div>
@@ -489,11 +585,24 @@ footer {
             </div>
         </footer>
         <!-- Akhir Footer -->
-
+   
     </div>
     <div class="snackbars" id="form-output-global"></div>
-    <script src="../js/core.min.js"></script>
-    <script src="../js/script.js"></script>
-    <script src="../html/mitra/mitra_merchant/merchant.js"></script>
+    <script src="../../../../js/core.min.js"></script>
+    <script src="../../../../js/script.js"></script>
+    <script src="./konten_antar.js" ></script>
+    <script>
+		window.addEventListener('load', function() {
+		const helpFulBtnElement = document.querySelectorAll('.js-snackbar');
+			helpFulBtnElement.forEach(function(btn) {
+				btn.addEventListener('click', function(e) {
+					setTimeout(function() {
+					$('.c-faq-detail__helpful').slideUp();
+					$('.c-faq-detail__buttons').slideUp();								
+					}, 1618)
+				});
+			});
+		});
+    </script>
   </body>
 </html>

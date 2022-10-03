@@ -398,7 +398,7 @@
 .c-information__link {
     font-size: 18px;
     line-height: 1.33;
-    color: #00880d;
+    color: var(--warna-dasar);
     text-decoration: none;
     font-family: var(--font-dasar);
     width: auto;
@@ -415,7 +415,7 @@
     position: absolute;
     width: calc(100% - 16px);
     height: 2px;
-    background-color: #00880d;
+    background-color: var(--warna-dasar);
     visibility: hidden;
     bottom: -2px;
     left: 0;
@@ -428,7 +428,7 @@
 }
 
 .c-information__link:hover {
-    color: #1a9425
+    color: var(--warna-dasar)
 }
 
 .c-information__link:hover:after {
@@ -615,7 +615,7 @@
 
 @media screen and (min-width:769px) {
     .c-howto__card .bg {
-        background-color: #00aa13;
+        background-color: var(--warna-dasar);
         display: block
     }
 }
@@ -1576,7 +1576,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 1.33;
-    color: #00880d;
+    color: var(--warna-dasar);
     text-decoration: none;
     width: auto
 }
@@ -1598,7 +1598,7 @@
 }
 
 .c-card--thumbnail__logo--transport {
-    background-color: #00aa13
+    background-color: var(--warna-dasar)
 }
 
 .c-card--thumbnail__logo--payment {
@@ -1776,7 +1776,7 @@
 }
 
 .c-card-testimony-avatar__bordered {
-    border: 4px solid #00aa13
+    border: 4px solid var(--warna-dasar)
 }
 
 .c-card-testimony-circle-1 {
@@ -2311,7 +2311,7 @@
     font-family: MaisonNeue-Book, sans-serif;
     font-size: inherit;
     line-height: normal;
-    color: #00880d;
+    color: var(--warna-dasar);
     -webkit-transition: all .2s;
     transition: all .2s;
     display: inline-block
@@ -2388,7 +2388,7 @@
 .c-card--accordion.active>.c-card--accordion__header,
 .c-card--accordion.c-pagination__button:hover>.c-card--accordion__header {
     color: #fff;
-    background-color: #00880d
+    background-color: var(--warna-dasar)
 }
 
 .c-card--accordion.active>.c-card--accordion__header p,
@@ -3438,7 +3438,7 @@
         font-family: var(--font-dasar);
         font-size: 18px;
         line-height: 1.33;
-        color: #00880d;
+        color: var(--warna-dasar);
         vertical-align: middle
     }
 
@@ -3520,7 +3520,7 @@
 
 .c-service-feature__card.active:after,
 .c-service-feature__card.c-pagination__button:hover:after {
-    color: #00880d;
+    color: var(--warna-dasar);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg)
 }
@@ -3538,7 +3538,7 @@
 }
 
 .c-service-feature__detail .c-howto__title {
-    color: #00880d;
+    color: var(--warna-dasar);
     font-size: 20px;
     line-height: 28.8px
 }
@@ -3563,7 +3563,7 @@
 .active .c-service-feature__indicator,
 .c-pagination__button:hover .c-service-feature__indicator {
     height: 48px;
-    background-color: #00880d
+    background-color: var(--warna-dasar)
 }
 
 .c-service-feature__showmore {
@@ -3573,11 +3573,11 @@
     line-height: 24px;
     text-align: center;
     margin-top: 8px;
-    color: #00880d !important
+    color: var(--warna-dasar) !important
 }
 
 .c-service-feature__showmore:hover {
-    color: #00880d !important
+    color: var(--warna-dasar) !important
 }
 
 .c-service-feature__text {
@@ -3594,7 +3594,7 @@
 
 .active .c-service-feature__text,
 .c-pagination__button:hover .c-service-feature__text {
-    color: #00880d
+    color: var(--warna-dasar)
 }
 
 .c-service-feature__thumbnail {
@@ -3685,7 +3685,7 @@
     }
 
     .c-service-feature__detail-desktop .c-howto__title {
-        color: #00880d;
+        color: var(--warna-dasar);
         font-size: 24px;
         line-height: 28px;
         font-family: var(--font-dasar);
@@ -3837,7 +3837,7 @@
     --prime-color-gray-shade5: #1f2d3d;
     --prime-color-dark200: #182430;
     --prime-color-disabled: #727272;
-    --prime-color-inactive-brand: #00880d
+    --prime-color-inactive-brand: var(--warna-dasar)
 }
 
 *,
@@ -12658,10 +12658,10 @@ textarea {
 }
 
 .o-input__radio-checkbox input[type=checkbox]:checked+.o-input__radio-checkbox-label:before {
-    background-color: #00aa13;
-    -webkit-box-shadow: inset 0 0 0 4px #00aa13;
-    box-shadow: inset 0 0 0 4px #00aa13;
-    border-color: #00aa13
+    background-color: var(--warna-dasar);
+    -webkit-box-shadow: inset 0 0 0 4px var(--warna-dasar);
+    box-shadow: inset 0 0 0 4px var(--warna-dasar);
+    border-color: var(--warna-dasar)
 }
 
 .o-input__radio-checkbox input[type=checkbox]:checked+.o-input__radio-checkbox-label:after {
@@ -12680,14 +12680,14 @@ textarea {
 
 .o-input__radio-checkbox input[type=checkbox]:focus+.o-input__radio-checkbox-label:before {
     outline: 0;
-    border-color: #00aa13
+    border-color: var(--warna-dasar)
 }
 
 .o-input__radio-checkbox input[type=checkbox]:disabled+.o-input__radio-checkbox-label:before {
     -webkit-box-shadow: inset 0 0 0 4px #fff;
     box-shadow: inset 0 0 0 4px #fff;
-    border-color: #00aa13;
-    background: #00aa13
+    border-color: var(--warna-dasar);
+    background: var(--warna-dasar)
 }
 
 @media screen and (max-width:767px) {
@@ -13405,7 +13405,7 @@ button.btn {
 }
 
 button.btn--gojek {
-    background-color: #00880d;
+    background-color: var(--warna-dasar);
     color: #fff
 }
 
@@ -13503,9 +13503,9 @@ button.btn-small {
     -o-object-fit: contain;
     object-fit: contain;
     position: relative;
-    color: #00880d;
+    color: var(--warna-dasar);
     background-color: #fff;
-    border: 2px solid #00880d;
+    border: 2px solid var(--warna-dasar);
     font-family: var(--font-dasar);
     cursor: pointer
 }
@@ -13621,7 +13621,7 @@ button.btn-small {
 }
 
 .o-btn--gojek {
-    background-color: #00880d;
+    background-color: var(--warna-dasar);
     color: #fff
 }
 
@@ -13653,11 +13653,11 @@ button.btn-small {
 }
 
 .o-btn--outline {
-    border: 1px solid #00880d;
+    border: 1px solid var(--warna-dasar);
     -webkit-transition: all .5s;
     transition: all .5s;
     background-color: #fff;
-    color: #00880d
+    color: var(--warna-dasar)
 }
 
 .o-btn--outline:hover {
@@ -15587,7 +15587,7 @@ body.business .c-card-socmed__circle-2 {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.33;
-    color: #00880d;
+    color: var(--warna-dasar);
     text-decoration: none;
     width: auto
 }
@@ -16331,7 +16331,7 @@ body.business .c-card-socmed__circle-2 {
     font-family: MaisonNeue-Book, sans-serif;
     font-size: inherit;
     line-height: normal;
-    color: #00880d;
+    color: var(--warna-dasar);
     -webkit-transition: all .2s;
     transition: all .2s;
     display: inline-block
@@ -16403,7 +16403,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-card--accordion.active>.c-card--accordion__header {
     color: #fff;
-    background-color: #00880d
+    background-color: var(--warna-dasar)
 }
 
 .c-card--accordion.active>.c-card--accordion__header p {
@@ -17865,8 +17865,8 @@ body.business .c-card-socmed__circle-2 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 48px;
-    color: #00880d;
-    border: 1px solid #00880d;
+    color: var(--warna-dasar);
+    border: 1px solid var(--warna-dasar);
     border-radius: 28px;
     padding: 12px 1rem;
     font-family: var(--font-dasar);
@@ -18186,7 +18186,7 @@ body.business .c-card-socmed__circle-2 {
         position: absolute;
         height: 2px;
         width: 100%;
-        background: #00880d
+        background: var(--warna-dasar)
     }
 
     .c-hamburger>div:nth-child(2) {
@@ -18200,7 +18200,7 @@ body.business .c-card-socmed__circle-2 {
         position: absolute;
         height: 2px;
         width: 100%;
-        background: #00880d
+        background: var(--warna-dasar)
     }
 
     .c-hamburger.active>div {
@@ -18484,7 +18484,7 @@ body.business .c-card-socmed__circle-2 {
     }
 
     .c-language__item.active .gi:before {
-        color: #00880d !important
+        color: var(--warna-dasar) !important
     }
 
     .c-language__item .gi {
@@ -18788,11 +18788,11 @@ body.business .c-card-socmed__circle-2 {
 
 .c-secondary-navbar__list>.c-secondary-navbar__list-item.active {
     background-color: #fff;
-    border: 1px solid #00880d
+    border: 1px solid var(--warna-dasar)
 }
 
 .c-secondary-navbar__list>.c-secondary-navbar__list-item.active>.c-secondary-navbar__list-item-link {
-    color: #00880d
+    color: var(--warna-dasar)
 }
 
 .c-secondary-navbar__list>.c-secondary-navbar__list-item>.c-secondary-navbar__list-item-link {
@@ -21057,7 +21057,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-search-result__title:hover {
-    color: #00880d
+    color: var(--warna-dasar)
 }
 
 @media (min-width:768px) {
@@ -21266,7 +21266,7 @@ body.business .c-card-socmed__circle-2 {
         font-family: var(--font-dasar);
         font-size: 18px;
         line-height: 1.33;
-        color: #00880d;
+        color: var(--warna-dasar);
         vertical-align: middle
     }
 
@@ -21404,13 +21404,13 @@ body.business .c-card-socmed__circle-2 {
 
 .c-faq-detail .blog-body a,
 .c-faq-detail .c-faq-detail__body a {
-    color: #00880d
+    color: var(--warna-dasar)
 }
 
 .c-faq-detail .blog-body a:hover,
 .c-faq-detail .c-faq-detail__body a:hover {
-    color: #1a9425;
-    border-bottom: 2px solid #1a9425
+    color: var(--warna-dasar);
+    border-bottom: 2px solid var(--warna-dasar)
 }
 
 .c-faq-detail .blog-body figcaption,
@@ -21625,7 +21625,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-faq-detail .blog-body table a:hover,
 .c-faq-detail .c-faq-detail__body table a:hover {
-    border-bottom: 2px solid #1a9425
+    border-bottom: 2px solid var(--warna-dasar)
 }
 
 .c-faq-detail .blog-body table.center,
@@ -21662,12 +21662,12 @@ body.business .c-card-socmed__circle-2 {
 .c-faq-detail .blog-body table th,
 .c-faq-detail .c-faq-detail__body table th {
     font-family: MaisonNeue-Book, sans-serif;
-    color: #101820;
-    border-bottom-color: var(--color-primary-green70);
+    color: var(--warna-dasar);
+    border-bottom-color: var(--warna-dasar);
     color: var(--color-primary-white100);
     text-align: left;
-    background-color: var(--color-primary-green50);
-    text-shadow: 0 2px 0 var(--color-primary-green70)
+    background-color: var(--warna-dasar);
+    text-shadow: 0 2px 0 var(--warna-dasar)
 }
 
 @media screen and (max-width:767px) {
@@ -21692,7 +21692,7 @@ body.business .c-card-socmed__circle-2 {
 .c-faq-detail .blog-body table th p,
 .c-faq-detail .c-faq-detail__body table th p {
     color: var(--color-primary-white100);
-    text-shadow: 0 2px 0 var(--color-primary-green70)
+    text-shadow: 0 2px 0 var(--warna-dasar);
 }
 
 .c-faq-detail .blog-body table td,
@@ -21809,7 +21809,7 @@ body.business .c-card-socmed__circle-2 {
 .c-faq-detail .blog-body u,
 .c-faq-detail .c-faq-detail__body u {
     text-decoration: none;
-    border-bottom: 2px solid #1a9425
+    border-bottom: 2px solid var(--warna-dasar);
 }
 
 .c-faq-detail .blog-body u a:hover,
@@ -21913,7 +21913,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-faq-detail__body a {
-    color: #00880d !important
+    color: var(--warna-dasar) !important
 }
 
 .c-faq-detail__buttons {
@@ -21931,8 +21931,8 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-faq-detail__helpful a {
-    color: #00880d;
-    border-bottom: 1px solid #00880d
+    color: var(--warna-dasar);
+    border-bottom: 1px solid var(--warna-dasar)
 }
 
 @media (min-width:768px) {
@@ -21969,4 +21969,71 @@ body.business .c-card-socmed__circle-2 {
     .c-faq-detail .c-heading__h1 {
         font-size: 36px
     }
+}
+
+.share-btn-container {
+    z-index: 1;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.share-btn-container a i {
+  font-size: 32px;
+}
+
+.share-btn-container a {
+  margin: 12px 0;
+  transition: 500ms;
+}
+
+.share-btn-container a:hover {
+  transform: scale(1.2);
+}
+
+.share-btn-container .fa-facebook {
+  color: #3b5998;
+}
+
+.share-btn-container .fa-twitter {
+  color: #1da1f2;
+}
+
+.share-btn-container .fa-linkedin {
+  color: #0077b5;
+}
+
+.share-btn-container .fa-pinterest {
+  color: #bd081c;
+}
+
+.share-btn-container .fa-whatsapp {
+  color: #25d366;
+}
+
+/* Media Queries */
+
+@media (max-width: 550px) {
+  .share-btn-container {
+    z-index: 1;
+    transform: unset;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
+    padding: 16px 0;
+    justify-content: center;
+  }
+
+  .share-btn-container a {
+    margin: 0 25px;
+  }
 }
