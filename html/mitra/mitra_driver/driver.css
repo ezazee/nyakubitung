@@ -88,7 +88,6 @@
     align-content: center;
     width: 100%;
     background-color: var(--warna-ketiga);
-    height: 100vh;
     position: relative;
     flex-direction: row;
 }
@@ -311,9 +310,6 @@
 
 /* Responsive */
 @media only screen and (max-width: 425px) {
-    .bungkus-fitur {
-        height: 150vh;
-    }
     .card{
         margin-top: 30px;
     }
@@ -322,10 +318,6 @@
 @media only screen and (max-width: 425px) {
     .hero {
         padding: 10px 0;
-    }
-
-    .bungkus-fitur {
-        height: 180vh;
     }
 }
 
