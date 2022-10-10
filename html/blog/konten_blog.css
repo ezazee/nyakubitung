@@ -11553,55 +11553,6 @@
      }
  }
 
- .dm-uploader,
- .drop-zone {
-     cursor: default;
-     -webkit-touch-callout: none;
-     -webkit-user-select: none;
-     -moz-user-select: none;
-     -ms-user-select: none;
-     user-select: none;
-     display: inline-block;
-     position: relative;
-     overflow: hidden
- }
-
- .dm-uploader .o-input__fileinput,
- .drop-zone .o-input__fileinput {
-     -webkit-transition: all .3s;
-     transition: all .3s
- }
-
- .dm-uploader input[type=file],
- .drop-zone input[type=file] {
-     position: absolute;
-     top: 0;
-     right: 0;
-     margin: 0;
-     border: solid transparent;
-     width: 100%;
-     height: 100%;
-     opacity: 0;
-     cursor: pointer
- }
-
- .dm-uploader.active .o-input__fileinput,
- .dm-uploader.dragging .o-input__fileinput,
- .drop-zone.active .o-input__fileinput,
- .drop-zone.dragging .o-input__fileinput {
-     border-color: #00aa13;
-     border-style: dashed;
-     opacity: .75
- }
-
- @media screen and (max-width:767px) {
-
-     .dm-uploader,
-     .drop-zone {
-         width: 100%
-     }
- }
-
  .o-input {
      position: relative
  }
