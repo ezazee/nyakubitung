@@ -509,7 +509,7 @@ footer {
 <section class="pb-4 mb-0 mb-md-4">
     <div class="container-fluid">
         <div class="container">
-            <form action="/blog/search/" method="GET">
+            <form action="#" method="GET">
                 <div class="row c-filter-box p-0">
                     
                     <!-- <div class="col-12 col-md-3 mb-1 mb-md-0 pr-0 pr-md-2">
@@ -1016,19 +1016,5 @@ footer {
     <div class="snackbars" id="form-output-global"></div>
     <script src="../../js/core.min.js"></script>
     <script src="../../js/script.js"></script>
-    <script src="./konten_blog.js"></script>
-    <script>
-		window.addEventListener('load', function() {
-		const helpFulBtnElement = document.querySelectorAll('.js-snackbar');
-			helpFulBtnElement.forEach(function(btn) {
-				btn.addEventListener('click', function(e) {
-					setTimeout(function() {
-					$('.c-faq-detail__helpful').slideUp();
-					$('.c-faq-detail__buttons').slideUp();								
-					}, 1618)
-				});
-			});
-		});
-    </script>
   </body>
 </html>
