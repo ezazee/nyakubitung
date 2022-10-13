@@ -479,7 +479,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row row-40 align-items-center wow fadeInUp">
               <div class="col-xl-7 col-lg-6">
                 <div class="img-video">
-                  <a class="button-play" href="https://www.youtube.com/watch?v=ajaDo15Hzc4" data-lightgallery="item">
+                  <a class="button-play" href="https://youtu.be/trb7WSUwHA8" data-lightgallery="item">
                     <svg width="19" height="21" viewbox="0 0 19 21">
                       <path d="M18.0698 8.92762C19.3101 9.63455 19.3101 11.3655 18.0698 12.0724L2.85678 20.7432C1.59455 21.4626 -6.40869e-08 20.585 0 19.1708L7.85887e-07 1.82916C8.49974e-07 0.414998 1.59455 -0.462644 2.85678 0.256784L18.0698 8.92762Z"></path>
                     </svg>
@@ -658,10 +658,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Akhir Ajakan Driver -->
 
     <!-- Video Player -->
-<main class="container-video-player">
+<!-- <main class="container-video-player">
         <section class="main-video">
-            <video src="assets/videos/manipulate text background.mp4" controls autoplay muted></video>
-            <h3 class="title">Cara Daftar User </h3>
+            <video src="assets/videos/Festival Pesona Selat Lembeh 2022.mp4" controls></video>
+            <h3 class="title">Festival Pesona Selat Lambeh 2022 </h3>
         </section>
         <section class="video-playlist">
            <h6>Butuh Bantuan ?</h6>
@@ -669,7 +669,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="videos">
             </div>
         </section>
-    </main>
+    </main> -->
+
+    <h3 class="heading-galery">Video Galery</h3>
+
+    <div class="container-video">
+      <div class="main-video">
+        <div class="video">
+          <video src="assets/videos/Festival Pesona Selat Lembeh 2022.mp4" controls></video>
+          <h3 class="title-galery">01. Tutorial asdasd</h3>
+        </div>
+      </div>
+
+      <div class="video-list">
+        <div class="vid active">
+          <video src="assets/videos/Nyaku Bitung Sahabat UMKM.mp4"></video>
+          <h3 class="title-galery">01. Tutorial asdasdsad</h3>
+        </div>
+        
+        <div class="vid">
+          <video src="assets/videos/Nyaku Bitung Sahabat UMKM.mp4"></video>
+          <h3 class="title-galery">02. Tutorial afrgdfg</h3>
+        </div>
+
+        <div class="vid">
+          <video src="assets/videos/Vlog Ekslusif TIM Nyaku Bitung.mp4"></video>
+          <h3 class="tittle-galery">03. Tutorial  sfdgdDf</h3>
+        </div>
+      </div>
+
+    </div>
     <!-- Akhir Video Player -->
 
 <!-- Showcase -->
@@ -908,6 +937,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             }
         }
     })
+    </script>
+    <script>
+      let listVideo = document.querySelectorAll('.video-list .vid');
+      let mainVideo = document.querySelector('.main-video video');
+      let title = document.querySelector('.main-video .title-galery');
+
+      listVideo.forEach(video => {
+        video.onclick = () =>{
+          listVideo.forEach(vid => vid.classList.remove('active'));
+          video.classList.add('active');
+          if(video.classList.contains('active')){
+            let src = video.children[0].getAttribute('src');
+            mainVideo.src = src;
+            let text = video.children[1].innerHTML;
+            title.innerHTML = text;
+          }
+        }
+      })
     </script>
   </body>
 </html>
