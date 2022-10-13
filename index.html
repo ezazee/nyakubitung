@@ -479,11 +479,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row row-40 align-items-center wow fadeInUp">
               <div class="col-xl-7 col-lg-6">
                 <div class="img-video">
-                  <!-- <a class="button-play" href="https://youtu.be/trb7WSUwHA8" data-lightgallery="item">
+                  <a class="button-play" href="https://www.youtube.com/watch?v=ajaDo15Hzc4" data-lightgallery="item">
                     <svg width="19" height="21" viewbox="0 0 19 21">
                       <path d="M18.0698 8.92762C19.3101 9.63455 19.3101 11.3655 18.0698 12.0724L2.85678 20.7432C1.59455 21.4626 -6.40869e-08 20.585 0 19.1708L7.85887e-07 1.82916C8.49974e-07 0.414998 1.59455 -0.462644 2.85678 0.256784L18.0698 8.92762Z"></path>
                     </svg>
-                  </a> -->
+                  </a>
                   <img class="box-shadow" src="assets/img/Ilustrasi/Aset Ilustrasi02.jpg" alt="Apa itu Nyaku Bitung" width="660" height="406"/>
                 </div>
               </div>
@@ -656,6 +656,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </section>
     <!-- Akhir Ajakan Driver -->
+
+    <!-- Video Player -->
+<main class="container-video-player">
+        <section class="main-video">
+            <video src="assets/videos/manipulate text background.mp4" controls autoplay muted></video>
+            <h3 class="title">Cara Daftar User </h3>
+        </section>
+        <section class="video-playlist">
+           <h6>Butuh Bantuan ?</h6>
+              <h3 style="font-family: var(--font-dasar);">Cek Short Video Dibawah Ya!</h3>
+            <div class="videos">
+            </div>
+        </section>
+    </main>
+    <!-- Akhir Video Player -->
 
 <!-- Showcase -->
 <section class="section section-md bg-default">
@@ -874,6 +889,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/popper.min.js"></script>
-    
+    <script src="js/video-player.js"></script>
+    <script>
+      $('.owl-carousel-video').owlCarousel({
+        items:1,
+        merge:true,
+        loop:true,
+        margin:10,
+        video:true,
+        lazyLoad:true,
+        center:true,
+        responsive:{
+            480:{
+                items:2
+            },
+            600:{
+                items:4
+            }
+        }
+    })
+    </script>
   </body>
 </html>

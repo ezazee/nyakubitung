@@ -197,14 +197,14 @@ sup {
 }
 
 a {
-	color: #1293E4;
+	color: var(--warna-dasar);
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-	color: #018aa9;
+	color: var(--warna-dasar);
 	text-decoration: underline;
 }
 
@@ -473,7 +473,7 @@ small,
 mark,
 .mark {
 	padding: 5px 10px;
-	background-color: #1293E4;
+	background-color: var(--warna-dasar);
 }
 
 .list-unstyled {
@@ -19423,7 +19423,7 @@ h6 a:hover,
 }
 
 .heading-8 a:hover {
-	color: #1293E4;
+	color: var(--warna-dasar);
 }
 
 @media (min-width: 992px) {
@@ -19443,7 +19443,7 @@ mark,
 .mark {
 	padding: 3px 5px;
 	color: #ffffff;
-	background: #1293E4;
+	background: var(--warna-dasar);
 }
 
 .big {
@@ -19474,7 +19474,7 @@ code {
 p [data-toggle='tooltip'] {
 	padding-left: .25em;
 	padding-right: .25em;
-	color: #1293E4;
+	color: var(--warna-dasar);
 }
 
 p [style*='max-width'] {
@@ -19482,12 +19482,12 @@ p [style*='max-width'] {
 }
 
 ::selection {
-	background: #1293E4;
+	background: var(--warna-dasar);
 	color: #ffffff;
 }
 
 ::-moz-selection {
-	background: #1293E4;
+	background: var(--warna-dasar);
 	color: #ffffff;
 }
 
@@ -21261,18 +21261,18 @@ hr {
 
 .button-primary, .button-primary:focus {
 	color: #ffffff;
-	background-color: #1293E4;
-	border-color: #1293E4;
+	background-color: var(--warna-dasar);
+	border-color: var(--warna-dasar);
 }
 
 .button-primary:hover, .button-primary:active, .button-primary.active {
 	color: #ffffff;
-	background-color: #1293E4;
-	border-color: #1293E4;
+	background-color: var(--warna-dasar);
+	border-color: var(--warna-dasar);
 }
 
 .button-primary.button-ujarak::before {
-	background: #1293E4;
+	background: var(--warna-dasar);
 }
 
 .button-primary.button-nuka:hover, .button-primary.button-nuka:active, .button-primary.button-nuka.active {
@@ -23906,7 +23906,7 @@ textarea.form-input {
 }
 
 .button-play:hover {
-	color: #1293E4;
+	color: var(--warna-dasar);
 }
 
 .button-play:hover::before {
@@ -24520,7 +24520,7 @@ html.tablet .ui-to-top {
 	height: 6px;
 	line-height: 6px;
 	text-align: center;
-	background: #1293E4;
+	background: var(--warna-dasar);
 	left: 50%;
 	margin-left: -3px;
 	border-radius: 50%;
@@ -24660,7 +24660,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item > .rd-navbar-submenu-toggle:hover {
-	color: #1293E4;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-static .rd-nav-item > .rd-navbar-submenu {
@@ -28502,4 +28502,114 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
 }
 
+
+
+.container-video-player {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1.8fr 1.2fr;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 990px) {
+    .container-video-player {
+        grid-template-columns: 1fr;
+    }
+}
+
+.main-video, .video-playlist {
+    width: 100%;
+    height: 30rem;
+}
+
+.main-video .title {
+    margin-top: 1rem;
+}
+
+.video-playlist .title {
+    padding-left: 1rem;
+}
+
+.video-playlist > p {
+    padding: 1rem;
+    color: var(--warna-dasar);
+}
+
+.video-playlist .videos{
+    height: 70%;
+    overflow-y: auto;
+}
+
+.video-playlist .videos::-webkit-scrollbar {
+    width: .4rem;
+    border-radius: .4rem;
+    background-color: #0005;
+}
+
+.video-playlist .videos::-webkit-scrollbar-thumb {
+    border-radius: .4rem;
+    background-color: var(--warna-dasar);
+}
+
+.video-playlist .videos .video {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 1rem;
+    margin-top: .1rem;
+    cursor: pointer;
+
+    border-radius: .5rem;
+}
+
+.video-playlist .videos .video:hover {
+    background-color: #0003;
+}
+
+.video-playlist .videos .video.active {
+    background-color: #0003;
+    color: var(--warna-dasar);
+}
+
+.main-video video {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.video img {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    
+    filter: invert(100%);
+}
+
+.video-playlist .videos .video.active img {
+    filter: invert(14%) sepia(65%) saturate(4566%) hue-rotate(352deg) brightness(88%) contrast(107%);
+}
+
+.video p {
+   margin-left: 2.5rem;
+}
+
+.video h3 {
+    width: 23rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font: 100 1rem sans-serif;
+    padding: 0 .5rem;
+}
 
