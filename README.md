@@ -12,7 +12,7 @@
 
 
 ## Tentang Project
-Project Kantor untuk Kabupaten Bitung
+Project Kantor untuk Kota Bitung
 
 ## Cara Run Project
 
