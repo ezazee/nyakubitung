@@ -28661,7 +28661,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	background: #fff;
 	border-radius: 5px;
 	height: 520px;
-	overflow: scrolls;
+	overflow: scroll;
  }
 
  .container-video .video-list::-webkit-scrollbar{
